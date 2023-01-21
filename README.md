@@ -29,7 +29,7 @@ A quiz app is a tool that allows users to take quizzes on various subjects. The 
 <br>
 Following are some of the new features and learning encountered while creating this amazing project:
 
-- Write points here
+- Creating components in REACT JS
 
 
 <br><br>
@@ -88,7 +88,10 @@ You can exclusively watch the video on this project from the making to deploying
 <br>
 Follwing technologies have been used at the core of this application to make it stand in the market place:
 
-- Write points here
+- HTML
+- CSS
+- JS
+- REACT JS
 
 
 <br><br>
