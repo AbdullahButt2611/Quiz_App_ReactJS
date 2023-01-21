@@ -1,0 +1,52 @@
+[
+    {
+        "title": "'OS' computer abbreviation usually means?",
+        "options": [
+            "Order of Significance"
+            ,"Open Software",
+            "Operating System"
+            ,"None of These"
+        ],
+        "correctOptionIndex": "2"
+    },
+    {
+        "title": "Which of the following is not a programming language?",
+        "options": [
+            "Java",
+            "Python",
+            "French",
+            "C++"
+        ],
+        "correctOptionIndex": "2"
+    },
+    {
+        "title": "What is the full form of RAM?",
+        "options": [
+            "Random Access Memory",
+            "Random Array Memory",
+            "Rotating Access Memory",
+            "Real Array Memory"
+        ],
+        "correctOptionIndex": "0"
+    },
+    {
+        "title": "What is the most used operating system in the world?",
+        "options": [
+            "Windows",
+            "iOS",
+            "Linux",
+            "Android"
+        ],
+        "correctOptionIndex": "0"
+    },
+    {
+        "title": "What is the full form of CSS?",
+        "options": [
+            "Computer Style Sheets",
+            "Cascading Style Sheets",
+            "Colorful Style Sheets",
+            "Creative Style Sheets"
+        ],
+        "correctOptionIndex": "1"
+    }
+]
