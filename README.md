@@ -100,7 +100,7 @@ Follwing technologies have been used at the core of this application to make it 
 
 ### Advancement
 
-> Text here
+> The first question is not loading, the index is starting from the second.
 
 <br><br>
 <!-- ................................................................................................................................. -->
