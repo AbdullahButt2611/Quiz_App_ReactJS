@@ -16,13 +16,18 @@ body {
 
 button{
   padding: 10px 20px;
-  background: #111;
+  background:  #A3ACFF;
   color: #fff;
   border: none;
   outline: none;
   cursor: pointer;
   border-radius: 5px;
   font-size: 15px;
+  transition: all 400ms ease;
+}
+
+button:hover{
+  background:  #1B444F;
 }
 
 
@@ -31,16 +36,19 @@ button{
   top: 0px;
   left: 0px;
   width: 100%;
-  height: 50px;
+  height: 100px;
   display: flex;
   justify-content: center;
   align-items: center;
   background: #fff;
   border-bottom: 1px solid #d5d5d5;
+  background:  #1B444F;
+  font-weight: 700;
+  font-size: 2rem;
 }
 
 .navbar .logo{
-  color: #111;
+  color: white;
 }
 
 .quiz-container{
@@ -51,4 +59,125 @@ button{
   min-height: 350px;
   background: #fff;
   border: 1px solid #eee;
+  box-shadow: 0 2px 5px 2px rgba(0,0,0,0.05);
+}
+
+.join-screen{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.join-screen h2{
+  font-size: 25px;
+  color:  #F1B28E;
+}
+
+.join-screen p{
+  max-width: 350px;
+  color:  #1F2125;
+}
+
+.quiz-screen .question .progress-bar{
+  width: 0%;
+  height: 5px;
+}
+
+.quiz-screen .question .progress-bar.active{
+  animation: progress 10s linear forwards;
+}
+
+.quiz-screen .question .question-count{
+  margin: 20px 0px;
+  text-align: center;
+  font-size: 15px;
+  color:  #1F2125;
+} 
+
+.quiz-screen .question .main{
+  padding: 20px 40px;
+}
+
+.quiz-screen .question .main .title span{
+  font-size: 15px;
+  color: #1F2125;
+  font-weight: 600;
+}
+
+.quiz-screen .question .main .title p{
+  margin-top: 5px;
+  color:  #1B444F;
+}
+
+.quiz-screen .question .main .options {
+  margin: 40px 0 20px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.quiz-screen .question .main .options .option {
+  width: calc(50% - 20px);
+  border: 1px solid #bbb;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.quiz-screen .question .main .options .option.active{
+  background:  #1B444F;
+  color: white;
+}
+
+.quiz-screen .question .control{
+  padding: 10px 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-top: 1px solid #eee;
+}
+
+.result-screen{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.result-screen h2{
+  color:  #F1B28E;
+}
+
+
+
+
+
+/* =======================    Animation Code    ========================= */
+@keyframes progress{
+  0%{
+    width: 0%;
+    background:  #1F2125;
+  }
+
+  79%{
+    width: 79%;
+    background:  #1F2125;
+  }
+
+  80%{
+    width: 80%;
+    background:  orangered;
+  }
+
+  100%{
+    width: 100%;
+  }
 }
