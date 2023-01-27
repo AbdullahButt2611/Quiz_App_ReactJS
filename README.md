@@ -17,7 +17,7 @@ This quiz app contains timer, next button along with score screen.
 
 <p align="justify">
 A quiz app is a tool that allows users to take quizzes on various subjects. The app may include features such as multiple choice questions, timed quizzes, and the ability to track scores and progress. Users may also have the ability to create and share their own quizzes. A quiz app is a tool that allows users to test their knowledge on various topics through a series of multiple choice or true/false questions. It is a interactive way to learn and test knowledge on different subjects. User can select topic of their choice and start taking quiz. It can be used for educational and personal development purposes, as well as for fun and entertainment.<br>
-
+The user has to click on the start button to start the quiz and then the question screen will display the user a question that the user will be given a list of options. To tell the user about the time to solve the problem, a progress bar has been made at the top of the container wall. The user can then simply choose any of the option. The option will be highlighted. The user then click on the button or can wait for the time to end to move to the next question. After all the questions, the result screen will appear displaying the results of the test in the form of percentage.
 </p>
 
 
@@ -30,6 +30,7 @@ A quiz app is a tool that allows users to take quizzes on various subjects. The 
 Following are some of the new features and learning encountered while creating this amazing project:
 
 - Creating components in REACT JS
+- Making an interactive progress bar to elaborate the user about the time left to solve the MCQ. A unique way to ticker the time instead of actually displaying any number
 
 
 <br><br>
@@ -40,7 +41,7 @@ Following are some of the new features and learning encountered while creating t
 <br>
 Follwing resources have been used in maintaining this project:
 
-- Write points here
+- [Actionable Color Pallete](https://colorpalettes.colorion.co/#33) is used to import color helping to make this app's UI interactive and soothing.
 
 
 <br><br>
@@ -50,22 +51,7 @@ Follwing resources have been used in maintaining this project:
 ### Demo
 <p align="justify">
   The Demo of this working portfolio can be found on <br>
-  <a href="></a>
-</p>
-
-
-<br><br>
-<!-- ................................................................................................................................. -->
-
-
-
-### Video
-<p align="justify">
-You can exclusively watch the video on this project from the making to deploying on my     channel with the link given below<br>
-
-  [Video Link](# ) <br>
-
-  If you like my video then do Like the Video and share it with others.
+  <a href="https://rebrand.ly/QuizApp_MABCORP">https://rebrand.ly/QuizApp_MABCORP</a>
 </p>
 
 
@@ -75,7 +61,7 @@ You can exclusively watch the video on this project from the making to deploying
 
 
 ### GUI
-![GUI for this Project](path)
+<img src = "/Other Images/Demo.png">
 
 
 <br><br>
@@ -100,7 +86,8 @@ Follwing technologies have been used at the core of this application to make it 
 
 ### Advancement
 
-> The first question is not loading, the index is starting from the second.
+> The first question is not loading, the index is starting from the second. <br>
+> The selection is not completely correct. It is not evaluating correctly.
 
 <br><br>
 <!-- ................................................................................................................................. -->
