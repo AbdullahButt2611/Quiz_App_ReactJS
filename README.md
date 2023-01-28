@@ -1,5 +1,3 @@
-This quiz app contains timer, next button along with score screen.
-
 <p align="center">
   <img src = "/Other Images/logo.png" width="200">
 </p>
